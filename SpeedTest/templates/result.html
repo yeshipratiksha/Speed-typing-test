@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<center>
+<head>
+    <title>Speed Typing Test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Results</h1>
+        <p>Time elapsed: {{ elapsed_time }} seconds</p>
+        <p>Number of characters typed: {{ num_characters }}</p>
+        <p>Typing speed: {{ typing_speed }} characters per minute</p>
+    </div>
+</body>
+</center>
+</html>
